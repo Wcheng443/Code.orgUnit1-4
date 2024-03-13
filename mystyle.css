@@ -1,0 +1,162 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #f96cd3;
+}
+*{
+  box-sizing:border-box;
+}
+h1,h2,h3,h4{
+  font-size: 1.0em;
+  color: #f736e3;
+}
+body{
+  background-color:#ebf5ff;
+  color:beige
+  text-align:center;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+}
+#logo{
+  width: 150px;
+  position: absolute;
+  right: 1700px;
+  top: 20px;
+}
+/*banner code*/
+.banner {
+
+  
+
+  background-color:#fb98f7 ;
+  margin: 15px;
+  padding: 10px;
+  height: 150px:
+  border: 3px solid #b7c3d2 ;
+box-shadow: 5px 2px 2px 5px #ddd;
+outline-offset: 1px;
+outline: groove 2px #b7c3c2;
+text-transform: capitalize;
+text-shadow: 1px 1px #8594b7;
+font-family: comic;
+font-style: oblique;
+text-align: right;
+}
+.menu{
+margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 65px;
+  top: 140px;
+  font-size: 2em;
+  text-align: center;
+  z-index: 1;
+  color:#f736e3;
+}
+.menu a{
+  background-color: #b67aff;
+  display: none;
+  color: white;
+  padding: 2px;
+  font-size: 0.5em;
+}
+.menu:hover a{
+  display: block;
+}
+
+.container{border: 2px solid #fb98f7;
+          background-image: repeating-linear-gradient(#fb98f7,#f4bdff,white);
+          position:relative;}
+
+.wave{border:1px dotted blue;
+     background-image:radial-gradient( #f5c2ff, #f3b8ff, #f6ccff);
+     height: 20px;
+     width:80%;
+     position: relative;
+      left:10%;
+     transition:height 4s;
+     display: block;
+     overflow:hidden;}
+#u1{transition:height 4s;}
+#u1:hover{height:180px;
+z-index: 1;}
+#u2{transition:height 4s;}
+#u2:hover{height:180px;
+z-index: 1;}
+#u3{transition:height 4s;}
+#u3:hover{height:180px;
+z-index: 1;}
+#u4{transition:height 4s;}
+#u4:hover{height:200px;
+z-index: 1;}
+.wave1{border:1px dotted blue;
+ background-image:radial-gradient( #f5c2ff, #f3b8ff, #f6ccff);
+ height: 20px;
+ width:80%;
+ position: relative;
+  left:10%;
+ transition:height 4s;
+ display: block;
+ overflow:hidden;}
+#L1{transition:height 4s;}
+#L1:hover{height:380px;
+z-index: 1;}
+#L2{transition:height 4s;}
+#L2:hover{height:380px;
+z-index: 1;}
+#L3{transition:height 4s;}
+#L3:hover{height:380px;
+z-index: 1;}
+#L4{transition:height 4s;}
+#L4:hover{height:600px;
+z-index: 1;}
+#L5{transition:height 4s;}
+#L5:hover{height:380px;z-index: 1;}
+#L6{transition:height 4s;}
+#L6:hover{height:380px;
+z-index: 1;}
+#L7{transition:height 4s;}
+#L7:hover{height:500px;
+z-index: 1;}
+#L8{transition:height 4s;}
+#L8:hover{height:380px;
+z-index: 1;}
+#L9{transition:height 4s;}
+#L9:hover{height:380px;
+z-index: 1;}
+#L10{transition:height 4s;}
+#L10:hover{height:380px;
+z-index: 1;}
+#L11{transition:height 4s;}
+#L11:hover{height:380px;
+z-index: 1;}
+#L12{transition:height 4s;}
+#L12:hover{height:580px;
+z-index: 1;}
+
+
+#top{position:relative;
+    border:1px solid red;
+    top:5px;
+    left:1px;
+    right:1px;
+    padding:2px;
+    margin:2px;
+    width: 99%;}
+
+#right{border: 1px solid #ff8f8f;
+      position:absolute;
+      right:1px;
+      margin:2px;
+      padding:2px;
+      height:500px;
+      width:49.5%;}
+
+#left{border: 1px solid #532d2d;
+     position:absolute;
+     left:1px;
+     margin:2px;
+     padding:2px;
+     height:500px;
+     width:49.5%;}
